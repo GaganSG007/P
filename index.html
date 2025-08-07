@@ -1,125 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gagan SG | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="container">
-    <header>
-      <h1>Gagan SG</h1>
-      <p>Software Developer • Problem Solver • Fresher with Real-World Builds</p>
-    </header>
-
-    <section class="intro">
-      <p>Computer Science graduate skilled in <strong>ReactJS, Python, Flask, JavaScript</strong> and passionate about turning ideas into intuitive software. From home automation to hyperlocal booking apps — I build to solve.</p>
-    </section>
-
-    <section class="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>🏠 Homeio – Smart Home Dashboard</h3>
-        <p>Controlled smart appliances via Raspberry Pi with real-time automation & modular scaling.</p>
-        <a href="https://github.com/GaganSG007/Homeio" target="_blank">GitHub ↗</a>
-      </div>
-
-      <div class="project">
-        <h3>🧵 Roophic – Saree Catalog Website</h3>
-        <p>Elegant, aesthetic web platform for browsing curated sarees with responsive filtering and clean UI.</p>
-        <a href="https://gagansg007.github.io/roophic/" target="_blank">Live Demo ↗</a>
-      </div>
-
-      <div class="project">
-        <h3>🎟️ Theatre Booking App</h3>
-        <p>Android app for booking seats in small-town theatres with Firebase auth and private rental options.</p>
-        <a href="https://github.com/GaganSG007/Theatre-Booking-App" target="_blank">GitHub ↗</a>
-      </div>
-    </section>
-
-    <section class="contact">
-      <h2>Contact</h2>
-      <p><a href="mailto:gagansg2506@gmail.com">gagansg2506@gmail.com</a></p>
-      <p><a href="https://linkedin.com/in/gagansg" target="_blank">LinkedIn ↗</a> | <a href="https://github.com/GaganSG007" target="_blank">GitHub ↗</a></p>
-    </section>
-
-    <footer>
-      <p>© 2025 Gagan SG</p>
-    </footer>
-  </div>
-
+  <title>Gagan S G | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Outfit', sans-serif;
+    * {
       margin: 0;
-      background-color: #fefefe;
-      color: #222;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
     }
 
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
+    body {
+      background: #fefefe;
+      color: #222;
+      line-height: 1.6;
     }
 
     header {
+      background: linear-gradient(to right, #f8e1f4, #f3f3ff);
+      padding: 3rem 2rem;
       text-align: center;
-      margin-bottom: 2rem;
     }
 
     header h1 {
       font-size: 2.5rem;
-      color: #6C4AB6;
+      color: #4a0072;
     }
 
     header p {
-      font-weight: 500;
-      color: #555;
-    }
-
-    .intro p {
+      margin-top: 0.5rem;
       font-size: 1.1rem;
-      margin-bottom: 2rem;
+      color: #5f5f5f;
     }
 
-    .projects h2, .contact h2 {
-      border-bottom: 2px solid #6C4AB6;
-      padding-bottom: 0.3rem;
-      margin-top: 2rem;
-      color: #6C4AB6;
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
     }
 
-    .project {
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #333;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .project, .experience {
       margin-bottom: 1.5rem;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
 
-    .project h3 {
-      margin: 0;
+    .project h3, .experience h3 {
+      color: #7b1fa2;
+      font-size: 1.3rem;
     }
 
-    .project p {
-      margin: 0.3rem 0 0.5rem;
-    }
-
-    a {
-      color: #6C4AB6;
-      text-decoration: none;
-      font-weight: 600;
+    .project p, .experience p {
+      margin-top: 0.5rem;
+      color: #555;
     }
 
     footer {
       text-align: center;
-      margin-top: 3rem;
-      font-size: 0.9rem;
+      padding: 2rem;
       color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #7b1fa2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
-</body>
+</head>
+<body>
+  <header>
+    <h1>Gagan S G</h1>
+    <p>Computer Science Graduate • Aspiring Software Engineer • Problem Solver</p>
+  </header>
 
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm a fresher with a strong foundation in software engineering and a passion for building elegant, real-world tech solutions. I enjoy creating clean, user-first applications that are both functional and beautiful.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> Python, JavaScript, HTML, CSS</p>
+    <p><strong>Frameworks:</strong> ReactJS, Flask</p>
+    <p><strong>Tools:</strong> Git, Firebase, GitHub, VSCode</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Roophic – Saree Catalog Website <a href="https://gagansg007.github.io/roophic/" target="_blank">[Live]</a></h3>
+      <p>Aesthetic and elegant catalog platform built for a college startup. Features responsive UI, product filtering, and a clean layout using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Theatre Booking App <a href="https://github.com/GaganSG007/Theatre-Booking-App" target="_blank">[GitHub]</a></h3>
+      <p>Android app for local theatres enabling seat selection, private bookings, and Firebase auth — created to digitize underserved movie experiences in small towns.</p>
+    </div>
+    <div class="project">
+      <h3>Homeio – Smart Home Dashboard <a href="https://github.com/GaganSG007/Homeio" target="_blank">[GitHub]</a></h3>
+      <p>Web-based control panel for IoT appliances using Raspberry Pi GPIO. Features automation logic and sleek modular UI for controlling devices in real-time.</p>
+    </div>
+    <div class="project">
+      <h3>Game Recommendation ML Model <a href="https://github.com/GaganSG007/Game-Recommendation" target="_blank">[GitHub]</a></h3>
+      <p>Trained ML model to recommend video games based on user preferences, genre clustering, and rating analysis using classification and data cleaning.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: gagansg007@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/GaganSG007" target="_blank">github.com/GaganSG007</a></p>
+    <p>Location: Karnataka, India</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Gagan S G. All rights reserved.
+  </footer>
+</body>
 </html>
